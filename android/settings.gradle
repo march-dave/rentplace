@@ -1,0 +1,3 @@
+rootProject.name = 'rentplace'
+
+include ':app'
