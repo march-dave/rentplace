@@ -6,9 +6,12 @@
 
 import React, { Component } from 'react';
 import {
-  AppRegistry,
-  Navigator
+  AppRegistry
 } from 'react-native';
+
+import {
+  Navigator
+} from 'react-native-deprecated-custom-components';
 
 import Landing from './application/components/Landing';
 import Dashboard from './application/components/Dashboard';

@@ -5,7 +5,6 @@ import Icon from 'react-native-vector-icons/Ionicons';
 
 import ActivityView from './activity/ActivityView';
 import MessagesView from './messages/MessagesView';
-import ProfileView from './profile/ProfileView';
 
 class Dashboard extends Component{
   constructor(){
@@ -39,7 +38,7 @@ class Dashboard extends Component{
           iconName='ios-person'
           onPress={() => this.setState({ selectedTab: 'Profile' })}
         >
-          <ProfileView />
+        
         </Icon.TabBarItemIOS>
       </TabBarIOS>
     )

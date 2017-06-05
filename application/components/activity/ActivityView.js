@@ -1,9 +1,6 @@
 /* application/components/activity/ActivityView.js */
 import React, { Component } from 'react';
 
-import ProfileView from '../profile/ProfileView';
-// import ProfileDetail from '../profile/ProfileDetail';
-
 import {
   ScrollView,
   View,

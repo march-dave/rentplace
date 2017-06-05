@@ -1,6 +1,6 @@
 /* application/components/Landing.js */
 // import Icon from 'react-native-vector-icons/MaterialIcons';
-import Icon from 'react-native-vector-icons/Ionicons';
+// import Icon from 'react-native-vector-icons/Ionicons';
 import React, { Component } from 'react';
 import {
   Text,
@@ -12,10 +12,8 @@ import {
 import Colors from '../styles/colors';
 import { landingStyles, globals } from '../styles';
 
-// const BackgroundImage = 'https://s3-us-west-2.amazonaws.com/assembliesapp/welcome%402x.png';
-const BackgroundImage = 'https://res.cloudinary.com/drrwovgv6/image/upload/v1483894228/BGimage_sw81qa.png';
-// const Logo = 'https://s3-us-west-2.amazonaws.com/assembliesapp/logo.png';
-const Logo = 'https://res.cloudinary.com/drrwovgv6/image/upload/v1483895904/icon_r5rwee.png';
+const BackgroundImage = 'https://res.cloudinary.com/drrwovgv6/image/upload/c_scale,w_367/v1496540595/bergdorf-113508_1920_msim9b.jpg';
+// const Logo = 'https://res.cloudinary.com/drrwovgv6/image/upload/v1483895904/icon_r5rwee.png';
 const styles = landingStyles;
 
 class Landing extends Component{
@@ -36,22 +34,22 @@ class Landing extends Component{
           />
         </View>
         <View style={globals.flexCenter}>
-          <Image
+          {/*<Image
             style={styles.logo}
             source={{ uri: Logo }}
-          />
-          <Text style={[globals.lightText, globals.h2, globals.mb2]}>
-            iGottaGo
-          </Text>
-          <Text style={[globals.lightText, globals.h4]}>
+          />*/}
+          {/*<Text style={[globals.landText, globals.h2, globals.mb2]}>
+            Rent Place
+          </Text>*/}
+          {/*<Text style={[globals.lightText, globals.h4]}>
             Where Public List
-          </Text>
+          </Text>*/}
         </View>
         <TouchableOpacity
           style={globals.button}
           onPress={this.visitDashboard}
         >
-          <Icon name='ios-person' size={36} color='white' />
+          {/*<Icon name='ios-person' size={36} color='white' />*/}
           <Text style={globals.buttonText}>
             {" "} Go to Dashboard
           </Text>
