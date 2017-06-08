@@ -30,10 +30,10 @@ export default class rentplace extends Component {
               return (
                 <Landing navigator={navigator}/>
             );
-            {/*case 'Dashboard':
+            case 'Dashboard':
               return (
                 <Dashboard navigator={navigator}/>
-            );*/}
+            );
           }
         }}
       />
